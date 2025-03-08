@@ -73,5 +73,3 @@ xlrd 1.2.0以上版本不支持xlsx文件，有点无语，会出现报错：XLR
 安装1.2.0版本xlrd（注意两个==）：pip install xlrd==1.2.0
 解决二：
 推荐使用 openpyx
-
-![](test.png)
