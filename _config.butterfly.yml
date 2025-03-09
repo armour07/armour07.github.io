@@ -476,7 +476,7 @@ math:
 search:
   # Choose: algolia_search / local_search / docsearch
   # leave it empty if you don't need search
-  use:
+  use: local_search
   placeholder:
 
   # Algolia Search
@@ -682,10 +682,10 @@ crisp:
 # --------------------------------------
 
 # https://tongji.baidu.com/web/welcome/login
-baidu_analytics:
+baidu_analytics: c24a6201ea55ab1fb6ac9fcf334c4267
 
 # https://analytics.google.com/analytics/web/
-google_analytics:
+google_analytics: G-0S3K6JQ797
 
 # https://www.cloudflare.com/zh-tw/web-analytics/
 cloudflare_analytics:
