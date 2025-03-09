@@ -1,12 +1,13 @@
 ---
 title: UnityEditor 基础篇
-date: 2018-07-12 12:15:00
 tags:
-- Unity
-- UnityEditor
+  - Unity
+  - UnityEditor
 categories:
-- Unity
-- Editor
+  - Unity
+  - Editor
+abbrlink: 48080
+date: 2018-07-12 12:15:00
 ---
 记录一下常用的编辑器类型，然后把它们集中在一个窗口，以便使用。
 ###预览图

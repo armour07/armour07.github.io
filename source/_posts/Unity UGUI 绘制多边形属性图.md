@@ -1,13 +1,14 @@
 ---
 title: Unity UGUI 绘制多边形属性图
-date: 2019-12-17 17:12:00
 tags:
-- Unity
-- UGUI
-- 多边形属性图
+  - Unity
+  - UGUI
+  - 多边形属性图
 categories:
-- Unity
-- UI
+  - Unity
+  - UI
+abbrlink: 4613
+date: 2019-12-17 17:12:00
 ---
 ### 效果图
 ![image.png](https://upload-images.jianshu.io/upload_images/12848512-e33ec4b30a4dc60c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)

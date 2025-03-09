@@ -1,10 +1,11 @@
 ---
 title: Git 初学指南
-date: 2023-12-08 12:18:02
 tags:
-- Git
+  - Git
 categories:
-- Git
+  - Git
+abbrlink: 13482
+date: 2023-12-08 12:18:02
 ---
 学习 git 记录
 官方地址：https://learngitbranching.js.org/?locale=zh_CN

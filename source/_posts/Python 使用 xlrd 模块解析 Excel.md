@@ -1,13 +1,14 @@
 ---
 title: Python 使用 xlrd 模块解析 Excel
-date: 2018-08-13 15:29:00
 tags:
-- Python
-- xlrd
-- Excel
+  - Python
+  - xlrd
+  - Excel
 categories:
-- Python
-- module
+  - Python
+  - module
+abbrlink: 8489
+date: 2018-08-13 15:29:00
 ---
 
 ## 简介

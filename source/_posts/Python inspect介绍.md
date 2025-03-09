@@ -1,12 +1,13 @@
 ---
 title: Python inspect介绍
-date: 2024-04-01 10:35:00
 tags:
-- Python
-- inspect
+  - Python
+  - inspect
 categories:
-- Python
-- module
+  - Python
+  - module
+abbrlink: 28018
+date: 2024-04-01 10:35:00
 ---
 
 ## 简介

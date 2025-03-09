@@ -1,12 +1,13 @@
 ---
 title: Unity UGUI 简单实现拖拽
-date: 2018-09-04 16:39:00
 tags:
-- Unity
-- UGUI
+  - Unity
+  - UGUI
 categories:
-- Unity
-- UI
+  - Unity
+  - UI
+abbrlink: 10898
+date: 2018-09-04 16:39:00
 ---
 ![效果图.gif](https://upload-images.jianshu.io/upload_images/12848512-b61d15eb9cae1851.gif?imageMogr2/auto-orient/strip)
 
