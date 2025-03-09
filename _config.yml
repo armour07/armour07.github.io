@@ -109,3 +109,13 @@ deploy:
   type: git
   repo: https://github.com/armour07/armour07.github.io
   branch: gh-pages
+
+sitemap:
+  path: 
+    - sitemap.xml
+    - sitemap.txt
+  template: ./sitemap_template.xml
+  template_txt: ./sitemap_template.txt
+  rel: false
+  tags: true
+  categories: true

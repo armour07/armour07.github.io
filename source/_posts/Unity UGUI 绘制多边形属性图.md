@@ -3,7 +3,6 @@ title: Unity UGUI 绘制多边形属性图
 tags:
   - Unity
   - UGUI
-  - 多边形属性图
 categories:
   - Unity
   - UI
