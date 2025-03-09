@@ -1039,6 +1039,7 @@ css_prefix: true
 inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
+    - <meta name="msvalidate.01" content="57A86EB22C05FF4A5159EFCA876C8E53" />
   bottom:
     # - <script src="xxxx"></script>
 
