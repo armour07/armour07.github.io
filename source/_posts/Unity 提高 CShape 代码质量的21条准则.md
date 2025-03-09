@@ -1,12 +1,12 @@
 ---
-title: Unity 提高C#代码质量的21条准则
+title: Unity 提高 CShape 代码质量的21条准则
 date: 2018-07-10 15:23:00
 tags:
 - Unity
-- C Shape
+- CShape
 categories:
 - Unity
-- C Shape
+- CShape
 ---
 1、尽可能使用属性，而不是直接访问数据成员
 
