@@ -1,10 +1,10 @@
 ---
-title: Cocos 绘制多边形属性图
+title: Cocos Creator 绘制多边形属性图
 tags:
-  - Cocos
+  - Cocos Creator
   - UI
 categories:
-  - Cocos
+  - Cocos Creator
   - UI
 abbrlink: 39073
 date: 2023-08-08 14:31:30
