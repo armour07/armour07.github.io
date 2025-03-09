@@ -10,7 +10,7 @@ abbrlink: 4613
 date: 2019-12-17 17:12:00
 ---
 ### 效果图
-![image.png](https://upload-images.jianshu.io/upload_images/12848512-e33ec4b30a4dc60c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.jpg](2x6tyzhc.jpg)
 
 ### 关于OnPopulateMesh
 
@@ -25,14 +25,14 @@ AddTriangle|向缓冲区添加一个三角形
 思路：
 1. 清空所有顶点信息
 2. 添加4个顶点(0, 1, 2, 3)
-![image.png](https://upload-images.jianshu.io/upload_images/12848512-a8965f076da2d1b1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.jpg](wm3pqzxc.jpg)
 
 3. 添加三角形 (0, 1, 2), (0, 2, 3), (0, 3, 1)
-![image.png](https://upload-images.jianshu.io/upload_images/12848512-c050e75225787b31.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.jpg](zim6xipd.jpg)
 
 
 ### 源码
-``` c sharp
+```csharp
 using UnityEngine;
 using UnityEngine.UI;
 

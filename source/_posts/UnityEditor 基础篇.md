@@ -3,6 +3,7 @@ title: UnityEditor 基础篇
 tags:
   - Unity
   - UnityEditor
+  - Editor
 categories:
   - Unity
   - Editor
@@ -10,14 +11,14 @@ abbrlink: 48080
 date: 2018-07-12 12:15:00
 ---
 记录一下常用的编辑器类型，然后把它们集中在一个窗口，以便使用。
-###预览图
-![20180712144030.png](https://upload-images.jianshu.io/upload_images/12848512-c6e35e9e147fdcd8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+### 预览图
+![20180712144030.png](dtw3o27k.jpg)
 
-###代码部分
-#####一. 建一个类
+### 代码部分
+##### 一. 建一个类
 Editor目录下新建类 **MyLayoutWindow** ,继承 **EditorWindow**。  
 编写一个静态方法，用来打开窗口。
-```
+```csharp
 public class MyLayoutWindow : EditorWindow {
     [MenuItem("Tools/布局窗口")]
     static public void ShowWindow() {
@@ -34,14 +35,14 @@ public class MyLayoutWindow : EditorWindow {
 ```
 这样就可以愉快得在“Tools/布局窗口”下打开窗口了。
 
-#####二. 开始写OnGUI里面的布局
+##### 二. 开始写OnGUI里面的布局
 1. 坐标
 为了美观，把二维三维放在同一水平上，所以在前后各加上EditorGUILayout.BeginHorizontal();
 EditorGUILayout.EndHorizontal();
 即可，后面会频繁用到。
 EditorGUILayout.Space();
 只是单纯为了中间留点间隔。
-```
+```csharp
     private Vector2 mVec2;
     private Vector3 mVec3;
     private Vector4 mVec4;
@@ -56,7 +57,7 @@ EditorGUILayout.Space();
 ```
 
 2. 颜色
-```
+```csharp
     private Color mColor;
 
     public void OnGUI() {
@@ -64,7 +65,7 @@ EditorGUILayout.Space();
     }
 ```
 3. 滑块
-```
+```csharp
     private float mSlider;
 
     public void OnGUI() {
@@ -73,7 +74,7 @@ EditorGUILayout.Space();
 ```
 4. 下拉框
 这里需要先定义一个枚举类
-```
+```csharp
 [Serializable]
 public enum ShowType{
     None = 0,
@@ -83,7 +84,7 @@ public enum ShowType{
 }
 ```
 
-```
+```csharp
     private int mPopupIndex, mLayer;
     private string[] mPopupStrArr = new[]{
             "第一",
@@ -119,7 +120,7 @@ public enum ShowType{
 
 5. 提示框
 这里不浪费空间，加了个小按钮
-```
+```csharp
     public void OnGUI() {
         if (GUILayout.Button("点我")) {
             EditorUtility.DisplayDialog("标题", "提示内容", "确定", "取消");
@@ -127,7 +128,7 @@ public enum ShowType{
     ｝
 ```
 6. 勾选+折叠
-```
+```csharp
     private bool mIsSelectTog, mIsFoldout, mIsTogGroup;
     private bool[] mIsGroupTogs = new bool[2] { false, false};
 
@@ -145,7 +146,7 @@ public enum ShowType{
     ｝
 ```
 7. 动画片段
-```
+```csharp
     private AnimationCurve mCurve = new AnimationCurve();
 
     public void OnGUI() {
@@ -153,7 +154,7 @@ public enum ShowType{
     }
 ```
 8. 对象选择框
-```
+```csharp
     private Object mObj;
     private Texture mTexture;
 
@@ -165,7 +166,7 @@ public enum ShowType{
     }
 ```
 9. 路径选择
-```
+```csharp
     private string mSelectPath;
 
     public void OnGUI() {
@@ -176,7 +177,7 @@ public enum ShowType{
     }
 ```
 10. 提示
-```
+```csharp
     public void OnGUI() {
         EditorGUILayout.BeginHorizontal();
         EditorGUILayout.HelpBox("oh my god!!!!!", MessageType.Error);
@@ -187,9 +188,9 @@ public enum ShowType{
     }
 ```
 11. 菜单
-![image.png](https://upload-images.jianshu.io/upload_images/12848512-e92cdc61377a01a6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](zjipg0on.jpg)
 
-```
+```csharp
 void OnGUI()
 {
     if (GUILayout.Button("test", EditorStyles.toolbarDropDown, GUILayout.Width(100)))
