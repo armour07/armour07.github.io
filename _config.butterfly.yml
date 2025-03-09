@@ -66,16 +66,16 @@ avatar:
 disable_top_img: false
 
 # If the banner of page not setting, it will show the default_top_img
-default_top_img: /img/background2.png
+default_top_img: /img/background.jpg
 
 # The banner image of index page
-index_img:
+index_img: /img/background.jpg
 
 # The banner image of archive page
-archive_img:
+archive_img: /img/background.jpg
 
 # Note: tag page, not tags page
-tag_img:
+tag_img: /img/background.jpg
 
 # The banner image of tag page, you can set the banner image for each tag
 # Format:
@@ -95,7 +95,7 @@ footer_img: true
 
 # Website Background
 # Can set it to color or image url
-background:
+background: 
 
 cover:
   # Disable the cover or not
@@ -104,10 +104,11 @@ cover:
   archives_enable: true
   # When cover is not set, the default cover is displayed
   default_cover: 
-    - img/default-cover-bg-2.png
-    - img/default-cover-bg-3.png
-    - img/default-cover-bg-4.png
-    - img/default-cover-bg-5.png
+    - img/default-cover-bg-1.jpg
+    - img/default-cover-bg-2.jpg
+    - img/default-cover-bg-3.jpg
+    - img/default-cover-bg-4.jpg
+    - img/default-cover-bg-5.jpg
 
 # Replace Broken Images
 error_img:
@@ -140,7 +141,6 @@ post_meta:
     categories: true
     tags: true
     label: true
-    cover: img/default-cover-bg.png
 
 # --------------------------------------
 # Index page settings
@@ -220,10 +220,10 @@ reward:
   enable: true
   text:
   QR_code:
-    - img: /img/wechat-appreciation.png
+    - img: /img/wechat-appreciation.jpg
       link:
       text: wechat
-    - img: /img/alipay-appreciation.png
+    - img: /img/alipay-appreciation.jpg
       link:
       text: alipay
 
