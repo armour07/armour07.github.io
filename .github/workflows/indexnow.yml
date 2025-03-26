@@ -2,7 +2,9 @@ name: Submit IndexNow Request To Bing
 
 on:
   workflow_run:
-    workflows: ["pages.yml"]  # 替换为你的 pages.yml 文件名
+    workflows: ["Deploy to GitHub Pages"]  # 工作流名称
+    branches:
+      - main
     types:
       - completed
 
@@ -18,7 +20,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'  # 可以根据需要调整 Python 版本
+          python-version: '3.11'
 
       - name: Install dependencies
         run: |
