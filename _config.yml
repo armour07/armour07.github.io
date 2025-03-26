@@ -119,7 +119,3 @@ sitemap:
   rel: false
   tags: false
   categories: false
-
-skip_render:
-  - '*.py'
-  - '*.txt'
