@@ -41,7 +41,7 @@ def ping_bing(url_list):
     return response
 
 if __name__ == "__main__":
-    sitemap_path = "source/sitemap.xml"  # 替换为你的 sitemap 文件路径
+    sitemap_path = "public/sitemap.xml"  # 替换为你的 sitemap 文件路径
     url_list = get_latest_posts(sitemap_path, 25)  # 获取最近 10 篇文章的 URL
     print("最近更新的文章 URL 列表：")
     print(url_list)  # 打印获取的 URL 列表
