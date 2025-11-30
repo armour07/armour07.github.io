@@ -106,6 +106,9 @@ cover:
     - img/default-cover-bg-3.jpg
     - img/default-cover-bg-4.jpg
     - img/default-cover-bg-5.jpg
+    - img/default-cover-bg-6.jpg
+    - img/default-cover-bg-7.jpg
+    - img/default-cover-bg-8.jpg
 
 # Replace Broken Images
 error_img:
