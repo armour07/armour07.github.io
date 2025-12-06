@@ -1,12 +1,12 @@
 ---
-title: Python Django 接入 MySQL
+title: Django 接入 MySQL
 tags:
   - Python
   - Django
   - MySQL
 categories:
   - Python
-  - module
+  - Django
 abbrlink: 48284
 date: 2025-01-21 21:15:00
 ---

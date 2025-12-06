@@ -1,12 +1,12 @@
 ---
-title: Python Django介绍
+title: Django 介绍
 tags:
   - Python
   - Django
   - Django REST framework
 categories:
   - Python
-  - module
+  - Django
 abbrlink: 7924
 date: 2025-01-20 15:12:00
 ---
