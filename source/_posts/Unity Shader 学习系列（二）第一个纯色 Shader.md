@@ -106,7 +106,7 @@ Shader "Study/S01_SolidColor"
 
 这里先不列太多，够入门就行。后续写到贴图、溶解、动态效果时，我们会一边用一边补充。
 
-{% asset_img inspector-basecolor-placeholder.png "图-材质面板中的 Base Color 参数" %}
+{% asset_img material-preview.png "图-材质面板中的 Base Color 参数" %}
 
 ### 2.3 SubShader + Tags
 
@@ -190,7 +190,7 @@ half4 frag(Varyings input) : SV_Target
 3. 调整 `Base Color`。
 4. 模型会实时变色。
 
-{% asset_img basecolor-change-placeholder.gif "动图-拖动 Base Color 实时变色" %}
+{% asset_img effect-preview.gif "动图-拖动 Base Color 实时变色" %}
 
 ## 4. 系列规则（后续去重讲解）
 

@@ -115,7 +115,7 @@ Shader "Study/Example"
 3. 项目名建议：`LearnShader`。
 4. 选择你习惯管理的目录并创建。
 
-{% asset_img create-project-placeholder.png "图-Unity Hub 创建 URP 工程" %}
+{% asset_img project-create.png "图-Unity Hub 创建 URP 工程" %}
 
 ### 6.2 检查关键配置
 
@@ -123,7 +123,7 @@ Shader "Study/Example"
 2. `Project Settings > Graphics`，确认绑定了 URP Pipeline Asset。
 3. 场景里放一个 `Capsule` 和 `Directional Light`，后续调试方便。
 
-{% asset_img graphics-settings-placeholder.png "图-Graphics 中绑定 URP Asset" %}
+{% asset_img urp-graphics-settings.png "图-Graphics 中绑定 URP Asset" %}
 
 ### 6.3 推荐目录结构
 
@@ -143,4 +143,4 @@ Assets/
 
 ## 7. 下一篇预告
 
-下一篇就进代码实战，从 `S01_SolidColor.shader` 开始，按步骤把最基础的 Shader 流程讲透。
+下一篇就进代码实战，从第一个纯色 Shader 开始，按步骤把最基础的 Shader 流程讲透。
