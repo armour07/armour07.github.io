@@ -12,7 +12,7 @@ date: 2018-07-12 12:15:00
 ---
 记录一下常用的编辑器类型，然后把它们集中在一个窗口，以便使用。
 ### 预览图
-![20180712144030.png](dtw3o27k.jpg)
+![20180712144030.png](/posts/48080/dtw3o27k.jpg)
 
 ### 代码部分
 ##### 一. 建一个类
@@ -188,7 +188,7 @@ public enum ShowType{
     }
 ```
 11. 菜单
-![image.png](zjipg0on.jpg)
+![image.png](/posts/48080/zjipg0on.jpg)
 
 ```csharp
 void OnGUI()

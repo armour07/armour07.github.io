@@ -10,7 +10,7 @@ abbrlink: 4613
 date: 2019-12-17 17:12:00
 ---
 ### 效果图
-![image.jpg](2x6tyzhc.jpg)
+{% asset_img 2x6tyzhc.jpg image.jpg %}
 
 ### 关于OnPopulateMesh
 
@@ -25,10 +25,10 @@ AddTriangle|向缓冲区添加一个三角形
 思路：
 1. 清空所有顶点信息
 2. 添加4个顶点(0, 1, 2, 3)
-![image.jpg](wm3pqzxc.jpg)
+{% asset_img wm3pqzxc.jpg image.jpg %}
 
 3. 添加三角形 (0, 1, 2), (0, 2, 3), (0, 3, 1)
-![image.jpg](zim6xipd.jpg)
+{% asset_img zim6xipd.jpg image.jpg %}
 
 
 ### 源码
